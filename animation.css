@@ -1,0 +1,45 @@
+.scale{
+  background-color: cyan;
+  padding: 50px;
+  margin: 60px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  animation-name: scale;
+  animation-duration: 0.9s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scale{
+  0%{
+    scale: 1.1;
+  }
+  50%{
+    scale: 0.6;
+  }
+  100%{
+    scale: 1.1;
+  }
+}
+
+
+.color{
+  animation-name: color;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  font-size: 140px;
+  font-weight: 900;
+  text-align: center;
+}
+
+@keyframes color{
+  0%{
+    color: red;
+  }
+  75%{
+    color: yellow;
+  }
+  100%{
+    color: brown;
+  }
+}
